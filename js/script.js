@@ -88,7 +88,7 @@ function getInfoHour(contents) {
         const child = MWH[key];
         const element = document.querySelector(`#price-${key}`);
         const totalPrice = child * price;
-        element.textContent = totalPrice.toFixed(2) + '€';
+        element.textContent = totalPrice.toFixed(3) + '€';
     }
 }
 
