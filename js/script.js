@@ -1,5 +1,4 @@
 'use strict';
-const reloj = document.querySelector('#header-date');
  //OBJETO PARA RECORRER LOS ELECTRODOMESTICOS
 const MWH = {
     vajilla: 0.002508,
@@ -9,6 +8,7 @@ const MWH = {
     plancha: 0.0011,
 };
 // FUNCION PARA PONER RELOJ
+const reloj = document.querySelector('#header-date');
 function actualizacion() {
     const now = new Date();
 

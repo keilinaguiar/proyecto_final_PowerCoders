@@ -4,11 +4,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*********************
+*****VERSIÓN MOVIL****
+**********************/
 body {
     font-family: 'Merriweather', serif;
     background-color: #243742;
     color: rgb(209, 208, 250);
 }
+/*********************
+*********HEADER*******
+**********************/
 header {
     display: flex;
     justify-content: center;
@@ -30,6 +36,9 @@ header > h3{
     margin: 1rem;
     font-size: 25px;
 }
+/*********************
+*********MAIN*********
+**********************/
 main {
     display: flex;
     justify-content: center;
@@ -78,7 +87,9 @@ main {
 #precio-acondicionado {
     margin: 1rem;
 }
-
+/*********************
+*******FOOTER*********
+**********************/
 .footer {
     display: flex;
     flex-direction: column;
@@ -110,7 +121,9 @@ main {
 .social-media-icons:hover {
     color: #aaa;
 }
-
+/*********************
+****VERSIÓN TABLET****
+**********************/
 @media (min-width: 700px) {
     #first,
     #second,
@@ -127,7 +140,10 @@ main {
         font-size: 2rem;
     }
 }
-@media (min-width: 700px) {
+/*********************
+***VERSIÓN ORDENADOR**
+**********************/
+@media (min-width: 1000px) {
     header {
         margin-bottom: 2rem;
     }
