@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,400;1,700;1,900&family=Radio+Canada:wght@300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Merriweather', serif;
+    background-color: #243742;
+    color: rgb(209, 208, 250);
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(15, 15, 102);
+    padding: 20px 0;
+}
+h1 {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+}
+header > h2 {
+    text-align: center;
+    margin-top: 2rem;
+}
+header > h3{
+    margin: 1rem;
+    font-size: 25px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 50%;
+}
+#first,
+#second,
+#third,
+#fourth,
+#fifth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 700px;
+    background-color: rgb(15, 15, 102);
+    margin: 2rem;
+    border-radius: 10px;
+    box-shadow: 5px 3px 11px 10px rgba(65, 109, 146, 0.69);
+}
+#first > h2,
+#second > h2,
+#third > h2,
+#fourth > h2,
+#fifth> h2{
+    font-size: 1.8rem;
+    margin: 1rem;
+}
+#first > p,
+#second >p ,
+#third >p ,
+#fourth > p,
+#fifth> p {
+    margin: 1rem;
+    letter-spacing: 2px;
+}
+.Imagenes {
+    width: 200px;
+}
+#precio-lavaVajilla,
+#precio-ventilador,
+#precio-bombilla,
+#precio-plancha,
+#precio-acondicionado {
+    margin: 1rem;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(15, 15, 102);
+}
+.footer-content h2 {
+    font-size: 3em;
+}
+.footer-content h5,
+.sotial-network i {
+    font-size: 1.5em;
+}
+.sotial-network {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+}
+
+.social-media-icons {
+    color: #fff;
+    cursor: pointer;
+}
+
+.social-media-icons:hover {
+    color: #aaa;
+}
+
+@media (min-width: 700px) {
+    #first,
+    #second,
+    #third,
+    #fourth,
+    #fifth {
+        font-size: 1.5rem;
+    }
+    #first > h2,
+    #second > h2,
+    #third > h2,
+    #fourth > h2,
+    #fifth> h2 {
+        font-size: 2rem;
+    }
+}
+@media (min-width: 700px) {
+    header {
+        margin-bottom: 2rem;
+    }
+    h1 {
+        font-size: 3.5rem;
+    }
+    #first > h2,
+    #second > h2,
+    #third > h2,
+    #fourth > h2,
+    #fifth> h2{
+        font-size: 3rem;
+    }
+    #first,
+    #second,
+    #third,
+    #fourth,
+    #fifth{
+        font-size: 2rem;
+    }
+}
